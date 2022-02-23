@@ -23,12 +23,11 @@ LinearProgressWithLabel.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-export default function ScoreProgreesBar(props) {
-
-
+export default function RemainingScoreBar(props) {
   return (
-    <Box sx={{ width: '50%', mt: 5,ml:40}}>
-      <LinearProgressWithLabel color="success" sx={{ height: 10, borderRadius: 5 }} value={props.val} />
+    <Box sx={{ width: '50%', mt: 1,ml:40}}>
+        
+      <LinearProgressWithLabel sx={{ height: 10, borderRadius: 5 }} value={props.val} />
     </Box>
   );
 }
