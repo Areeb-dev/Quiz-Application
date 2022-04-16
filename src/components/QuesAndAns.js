@@ -72,7 +72,7 @@ const QuesAndAns = () => {
     setRemainingQuesResult(remainingResult)
 
     //REMAINING Wrong QUESTION RESULT PERCENTAGE
-    let WrongRemQues = Math.round(((remainingQues - score) / totalQuestion) *100)
+    let WrongRemQues = Math.round(((remainingQues - score) / totalQuestion) * 100)
     setWrongRemainingQuesResult(WrongRemQues)
 
     //check total ques length is < than currQueIndex
@@ -122,7 +122,7 @@ const QuesAndAns = () => {
         {/* Remaning Ques Result Progress Bar */}
         <RemainingScoreBar val={remainingQuesResult} />
         {/* If remaining Ques Wrong */}
-        <WrongRemainingQuesBar val={wrongRemainingQuesResult} />
+        {/* <WrongRemainingQuesBar val={wrongRemainingQuesResult} /> */}
       </Box>
 
     </>
