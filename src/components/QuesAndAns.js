@@ -120,9 +120,9 @@ const QuesAndAns = () => {
         {/* sucess Ques Result  Progress Bar */}
         <ScoreProgreesBar val={sucessQuesResult} />
         {/* Remaning Ques Result Progress Bar */}
-        <RemainingScoreBar val={remainingQuesResult} />
+        {/* <RemainingScoreBar val={remainingQuesResult} /> */}
         {/* If remaining Ques Wrong */}
-        {/* <WrongRemainingQuesBar val={wrongRemainingQuesResult} /> */}
+        <WrongRemainingQuesBar val={wrongRemainingQuesResult} />
       </Box>
 
     </>
